@@ -1,0 +1,121 @@
+body {
+	background-color: #1E293B;
+	color: rgb(30, 30, 30);
+	font-family: 'Inter', sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+  color: #F1F5F9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-size: 28px;
+}
+
+h2 {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+a {
+ text-decoration: none;
+ color: red;
+}
+a:hover {
+  color: #60A5FA;
+}
+
+.header {
+  background: #393E46;
+  border: none;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.header p {
+  color: #CBD5E1;
+  font-size: 16px;
+  max-width: 500px;
+  margin: 15px auto 25px auto;
+  line-height: 1.6;
+}
+
+.container {
+	max-width: 700px;
+	width: 90%;
+	margin: 40px auto;
+}
+
+@media(max-width: 760px) {
+  .container {
+  	max-width: 400px;
+  	width: 90%;
+  }
+  h1 {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+  .img-circle {
+    width: 200px;
+  }
+}
+
+.card-white {
+ background-color: white;
+ padding: 40px;
+ box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+ border-radius: 4px;
+ margin: 20px 0px;
+ text-align: center;
+ border: none;
+}
+
+.card-white p {
+  line-height: 1.6;
+  font-size: 15px;
+  color: #444;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.btn-blue {
+ display: inline-block;
+ background-color: #6B72E1;
+ color: white;
+ padding: 15px 20px;
+ border-radius: 4px;
+}
+.btn-blue:hover {
+ background-color: black;
+ color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230,230,230);
+}
+.fa-linkedin:hover {
+ background-color: skyblue;
+ color: white;
+}
+.fa-instagram:hover {
+ background-color: darkred;
+ color: white;
+}
+
+#introduction p {
+ margin-bottom: 40px;
+}
